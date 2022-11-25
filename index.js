@@ -15,14 +15,8 @@
 // создание модуля
 
 // const my_math = require('./my_math');
-// import {add, minus}   from './my_math.js'
-// let res1 = add(4, 5);
-// let res2 = minus(15, 5);
-// console.log(`Result: res1 is ${res1} and res2 is ${res2}`);
-
-//=========================== работа с файлами =================================
-import  fs from "fs";
-
-fs.readFileSync('some1', 'utf-8');
-fs.writeFileSync('some1', 'Hello World');
+import {add, minus}   from './my_math.js'
+let res1 = add(4, 5);
+let res2 = minus(15, 5);
+console.log(`Result: res1 is ${res1} and res2 is ${res2}`);
 
